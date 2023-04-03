@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="library-database-design" id="1E129552-2730-13F6-43B1-D7B1217461EA" version="3.5">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:44:11 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1E129552-2730-13F6-43B1-D7B1217461EA</designId>
+</OSDM_Design>
