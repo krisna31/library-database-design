@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C8389F0-0472-DC8B-B27E-5625D4B5B9EF" name="BUKU">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:52:09 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D4A083C9-2DEB-D958-348C-0FA0651E5A9F">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:52:46 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C3A21C6-89C5-AEC5-67BE-98EEAEC42B48" name="BUKU_PK">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:52:46 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4A083C9-2DEB-D958-348C-0FA0651E5A9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

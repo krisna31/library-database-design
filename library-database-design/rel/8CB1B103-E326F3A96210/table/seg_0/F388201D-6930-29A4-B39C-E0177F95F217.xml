@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F388201D-6930-29A4-B39C-E0177F95F217" name="PETUGAS">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:53:38 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="062A745B-2109-B8E5-A6C2-F8862D8830AD">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:53:58 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08049455-154E-7C7D-2A12-405359EB0C88" name="PETUGAS_PK">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-03 08:53:58 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="062A745B-2109-B8E5-A6C2-F8862D8830AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
