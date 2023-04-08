@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="2E7D1ABC-6804-CE74-3917-21225405E722">
+<Attribute name="id" id="2E7D1ABC-6804-CE74-3917-21225405E722">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-08 14:32:39 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
@@ -25,6 +25,30 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_pinjam" id="6884EF52-A9A6-5061-42D4-8737DE38A838">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:41:40 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_kembali" id="F0DCBA71-7CF1-5075-A4E7-A23C647FBD7C">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:41:56 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
