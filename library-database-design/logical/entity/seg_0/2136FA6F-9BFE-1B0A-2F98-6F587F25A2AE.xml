@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2136FA6F-9BFE-1B0A-2F98-6F587F25A2AE" name="ANGGOTA">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>2A5E8668-3455-04A2-835A-6C1E06BF3B28</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BA219890-FB69-EFCD-8DF9-24452D3EC60B">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>12A2378A-11D0-0643-994C-F2A1E441C890</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07C94907-5F09-641D-5C87-1A30DD4D079B" name="ANGGOTA PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>26B46455-5E9E-0216-D4A9-0D249DBFABF7</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA219890-FB69-EFCD-8DF9-24452D3EC60B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

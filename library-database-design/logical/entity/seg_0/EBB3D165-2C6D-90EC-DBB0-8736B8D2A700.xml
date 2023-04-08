@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBB3D165-2C6D-90EC-DBB0-8736B8D2A700" name="KATEGORI">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>254A93CF-72CB-8D95-D892-5102BACF56C8</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B59995A5-61E4-C4EF-B6B1-C399B0D38C85">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>FDC5C8B3-CF2A-ACA4-10DD-04C37746DBD5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kategori" id="AD51D6E7-B698-F234-02AD-B72CCD59AA56">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>BF942A0D-0C10-64BC-57CA-F2D3B248B327</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92C85226-2B70-1D46-EBC9-C715530F963D" name="KATEGORI PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:24:42 UTC</createdTime>
+<generatorID>0FA1DF65-F524-2345-95BF-19F8C27BDEE8</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B59995A5-61E4-C4EF-B6B1-C399B0D38C85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
