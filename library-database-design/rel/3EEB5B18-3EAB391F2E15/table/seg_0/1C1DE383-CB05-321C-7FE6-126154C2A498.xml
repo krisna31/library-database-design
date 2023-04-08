@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C1DE383-CB05-321C-7FE6-126154C2A498" name="BUKU">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>29551B3A-38D1-6FD3-5F88-223A8053DF55</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8EBCFA15-C2E1-C054-6FF7-1C1DB9AB0C26">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>47A5BCF3-850D-4C77-EC1C-461D97313A16</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="judul" id="BF5DCB83-BEB1-45C0-BA5B-DA97179D0A36">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>0116EC66-EC38-712F-6C11-BB057CF3DA2B</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="449F449A-9909-06C0-74EA-59D1F0E313A9">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>9F73BC1B-AF6B-479D-C7EE-349E8E675FFE</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tahun_publikasi" id="F5226FE0-F4F0-CF19-7E83-9164511A4C78">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>86B1D8E9-2CE9-157E-FB7E-933DF68533FA</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edisi" id="0746C963-48E1-37F1-199D-2683FFE65664">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>539ECF89-2E7F-2710-6135-E3B36678453E</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah_halaman" id="12057D3E-A3A3-D2D2-69F9-9A4BED378BF3">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>126DFCF8-7117-8360-3C5A-AB32F71D0CCD</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bahasa" id="8B80D0EE-CDA8-4CB0-975B-38C913FAB4B2">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>FFE1F57D-31CF-4549-02D8-6162AF1FDBC7</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48831F0E-3753-F883-C42A-F9E90BCB3068" name="BUKU_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>82B882EB-3C0B-1752-4B97-CA948BF18371</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EBCFA15-C2E1-C054-6FF7-1C1DB9AB0C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

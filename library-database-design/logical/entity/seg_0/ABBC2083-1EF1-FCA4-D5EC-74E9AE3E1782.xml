@@ -52,14 +52,29 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="4E3D406C-43F0-12CA-CC01-D857FDCB4FFC">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 15:05:03 UTC</createdTime>
+<generatorID>EDB94765-B237-C78C-0CA0-0C85E1C43FA6</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<referedAttribute>BA219890-FB69-EFCD-8DF9-24452D3EC60B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0B85AFE8-EFB8-5754-5AD1-7A39C724A483" name="DENDA PK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-08 14:32:55 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

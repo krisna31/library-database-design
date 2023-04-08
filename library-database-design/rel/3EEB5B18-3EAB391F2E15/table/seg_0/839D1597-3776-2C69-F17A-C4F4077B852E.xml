@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="839D1597-3776-2C69-F17A-C4F4077B852E" name="ANGGOTA">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>2136FA6F-9BFE-1B0A-2F98-6F587F25A2AE</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="07053299-F689-7FC3-18B9-37BD23F7A28B">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>BA219890-FB69-EFCD-8DF9-24452D3EC60B</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_depan" id="313D6E7F-2796-942D-C9A5-CD040D53365F">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>B9001FA5-383C-9B9F-0819-C7C4A8EFB24E</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_belakang" id="548ED670-A72C-17DB-2144-D2CF64205059">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>4350F78C-666A-7C18-37F8-195AAAA1E239</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="CE218B57-2546-4987-9784-656F44FE3870">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>D6C18165-D1AE-F201-7A8A-730CDCE0A9A2</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomor_hp" id="BF1CA566-F581-A99A-B788-2AB7FCC214E8">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>8D484CA4-974F-78E2-24E3-5F2D8D6795BD</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="70B8981C-9269-DBF7-DF13-5313A173CD5A">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>13281E81-EC66-9527-6E6C-3F73063A6C41</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E75CC39-3C7C-A282-C748-D852C8DB7D2C" name="ANGGOTA_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:51:03 UTC</createdTime>
+<generatorID>07C94907-5F09-641D-5C87-1A30DD4D079B</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07053299-F689-7FC3-18B9-37BD23F7A28B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -104,6 +104,21 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="3B7E4569-709C-10D1-4F62-F521A7C67C98">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 15:04:06 UTC</createdTime>
+<generatorID>0A7DED8F-C7F3-BF2B-0CCA-A4E20AA39FD9</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7F497B60-A9B7-7721-C7C5-63FD8141C364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="82B882EB-3C0B-1752-4B97-CA948BF18371" name="BUKU PK">
@@ -111,8 +126,9 @@
 <createdTime>2023-04-08 14:24:42 UTC</createdTime>
 <generatorID>1C3A21C6-89C5-AEC5-67BE-98EEAEC42B48</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

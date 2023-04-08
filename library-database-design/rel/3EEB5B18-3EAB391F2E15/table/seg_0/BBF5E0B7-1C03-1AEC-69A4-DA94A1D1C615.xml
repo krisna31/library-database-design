@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBF5E0B7-1C03-1AEC-69A4-DA94A1D1C615" name="buku_kategori">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:57:24 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BUKU_id" id="3B6F2BA6-5F6C-212E-4231-AF23FAB5DC72">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:57:24 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3326510-87CF-16DD-3BD1-1B352D6E1ADB" referredColumn="8EBCFA15-C2E1-C054-6FF7-1C1DB9AB0C26"/>
+</associations>
+</Column>
+<Column name="KATEGORI_id" id="8B0D6E4C-600B-8469-357A-39A8BF18BD96">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:57:24 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D60D70A-4744-EC2F-D613-EB01069C3E41" referredColumn="3CEA6B6B-247D-ADFF-4250-4C96C947FC6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDB6C79D-2458-FC61-A2A2-B2168F2CE94F" name="buku_kategori_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:57:24 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B6F2BA6-5F6C-212E-4231-AF23FAB5DC72"/>
+<colUsage columnID="8B0D6E4C-600B-8469-357A-39A8BF18BD96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B43E8359-3ABE-4E0D-815F-2943B810240C" name="buku_kategori_BUKU_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:57:24 UTC</createdTime>
+<generatorID>91CCB7C6-7AD4-DFAB-534F-BCBA28E74D5A</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B6F2BA6-5F6C-212E-4231-AF23FAB5DC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EE337B7-D2EE-14F8-9304-2D90FC76E37B" name="buku_kategori_KATEGORI_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:57:24 UTC</createdTime>
+<generatorID>91CCB7C6-7AD4-DFAB-534F-BCBA28E74D5A</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B0D6E4C-600B-8469-357A-39A8BF18BD96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
