@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7F43DE1-DE46-C681-8491-965E9AEFA9AB" name="PETUGAS">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>B785684A-14B8-20E8-5C9F-AA5725F9337D</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FB182360-D374-6AB2-28D9-1F8BBB4DA035">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>7F497B60-A9B7-7721-C7C5-63FD8141C364</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PETUGAS_id" id="2F7C324B-DFB5-E325-821A-E781420046ED">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>4901BD3A-191F-14A1-A127-40F300D0CBD5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F5DBE5B-1547-2A29-4091-0615EB0E2F8D" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="154F0975-F7EF-30A3-3E1D-A5444943E2C0" name="PETUGAS_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>177C01BA-B4B0-6F28-A028-9BBFD8279A64</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8045BED5-4DB4-55F3-1EEC-7E5AB5D68AB1" name="PETUGAS_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>8A6D8309-A79B-11AD-A436-7F31B6F8B50F</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F7C324B-DFB5-E325-821A-E781420046ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

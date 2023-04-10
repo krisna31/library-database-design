@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="687D9F15-5A65-488B-B097-7F6423E7FA82">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="buku_penerbit" directorySegmentName="seg_0" id="687D9F15-5A65-488B-B097-7F6423E7FA82">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-08 15:00:05 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <sourceTransferable>false</sourceTransferable>
 <targetTransferable>false</targetTransferable>

@@ -4,7 +4,7 @@
 <createdTime>2023-04-08 14:31:30 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +20,23 @@
 <createdTime>2023-04-08 14:31:56 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="40F7DCC4-52B3-1502-8EAB-47A0485A5CA0">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:55:22 UTC</createdTime>
+<generatorID>887CD58C-FF55-16A9-BEE1-8C30ADA1B4DB</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>47A5BCF3-850D-4C77-EC1C-461D97313A16</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -32,28 +47,13 @@
 <createdTime>2023-04-08 14:39:22 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="40F7DCC4-52B3-1502-8EAB-47A0485A5CA0">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-08 14:55:22 UTC</createdTime>
-<generatorID>887CD58C-FF55-16A9-BEE1-8C30ADA1B4DB</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>47A5BCF3-850D-4C77-EC1C-461D97313A16</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -63,7 +63,7 @@
 <ownerDesignName>library-database-design</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="false"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

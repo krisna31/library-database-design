@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AB283B0-A266-3626-6296-6E9C4F76CF38" name="RAK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>60D74E90-E382-7124-BE30-904E25C66AE4</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B9821044-FD65-0140-F9F5-0BD97E56EA0C">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>5DE87F05-6FA6-92FC-1808-3E765D0C4A77</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUKU_id" id="E105806C-DC39-0893-60A4-B8F2F3534EAB">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>83C1AB99-0D60-C849-F12C-7D2D8C060636</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37DCC094-0322-B875-E08A-F012F2D51FCA" referredColumn="0B4EB64D-2DB4-6DA7-B142-6FC43CE5CC4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED6DB69E-B776-2D71-325A-A30485D53C26" name="RAK_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>586D1CCD-B036-F065-B082-08402D2F54D4</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9821044-FD65-0140-F9F5-0BD97E56EA0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AED0E8C-282C-E7D0-99BE-074D2093B0F6" name="RAK__IDX">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E105806C-DC39-0893-60A4-B8F2F3534EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3167B229-4372-C5B4-1081-63B783E0151D" name="RAK_BUKU_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E105806C-DC39-0893-60A4-B8F2F3534EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

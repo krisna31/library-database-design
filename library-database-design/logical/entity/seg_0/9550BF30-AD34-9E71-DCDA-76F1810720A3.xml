@@ -4,7 +4,7 @@
 <createdTime>2023-04-08 14:28:41 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,34 +20,48 @@
 <createdTime>2023-04-08 14:28:50 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nama_depan" id="2CB69B3B-45B1-CEDB-F5DA-A21F3FBA1B43">
+<Attribute name="email" id="2FF8DE3A-D052-05C3-F382-9711CB2290F6">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-08 14:44:18 UTC</createdTime>
+<createdTime>2023-04-08 14:45:15 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nama_belakang" id="20BC2B7D-F1F7-DC6A-8FE2-BC737C864E70">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-08 14:44:32 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_depan" id="2CB69B3B-45B1-CEDB-F5DA-A21F3FBA1B43">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-08 14:44:18 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,7 +73,7 @@
 <createdTime>2023-04-08 14:44:41 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,27 +85,13 @@
 <createdTime>2023-04-08 14:44:54 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="email" id="2FF8DE3A-D052-05C3-F382-9711CB2290F6">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-08 14:45:15 UTC</createdTime>
-<ownerDesignName>library-database-design</ownerDesignName>
-<engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -101,7 +101,7 @@
 <ownerDesignName>library-database-design</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3EEB5B18-E4DF-F965-083F-3EAB391F2E15" value="false"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

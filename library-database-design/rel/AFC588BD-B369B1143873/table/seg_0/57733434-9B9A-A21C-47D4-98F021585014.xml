@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57733434-9B9A-A21C-47D4-98F021585014" name="PENERBIT">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>3EB629F2-9C15-03FE-5BA8-E76DE42E9E63</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6001E1A8-EFC0-77E9-A720-8864B1754692">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>C4BD8CD7-2739-5488-1EF2-4B5858E7A0B7</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="1FC7B13D-901B-CAF3-4667-188F6284953E">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>10806074-0EE3-9422-D00E-495A80AA9429</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="31378E2E-71BC-260C-BED4-522C8F71198F">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>A3A9A517-071C-8E6A-F1A5-8D121F37C94F</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomor_hp" id="35859F76-F46B-D774-5846-F1EA04C9E375">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>22FC53FD-3BBA-4369-672E-162FD28EA342</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="93E54E0F-C2FD-9B4E-C81C-48DA39E7524D">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>E7253C0C-C06E-F3D8-91F4-6DB0107D8A7D</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3107670-8810-0008-4BB7-749E50A91D7D" name="PENERBIT_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:47:42 UTC</createdTime>
+<generatorID>F1B2A9B8-7783-94EE-D515-38954181A136</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6001E1A8-EFC0-77E9-A720-8864B1754692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

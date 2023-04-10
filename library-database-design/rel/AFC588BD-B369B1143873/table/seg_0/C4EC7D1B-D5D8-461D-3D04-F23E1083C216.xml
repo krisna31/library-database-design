@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4EC7D1B-D5D8-461D-3D04-F23E1083C216" name="KARYAWAN">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>8C43B3A8-EC2E-61F9-C951-664AAC38D45E</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="74F2E7F4-9DC6-5275-5EEC-84E84EC259D8">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>7F497B60-A9B7-7721-C7C5-63FD8141C364</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C557DA0B-48EC-BD8E-A4C4-2DFD4E99EDB8" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
+</associations>
+</Column>
+<Column name="id1" id="31087102-B83D-6511-081D-011952071F28">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>E46159BF-9555-BD13-DDFB-138E1808E2CB</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF90CA4E-CF23-5CCE-4183-49E0825EE463" name="KARYAWAN_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>177C01BA-B4B0-6F28-A028-9BBFD8279A64</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74F2E7F4-9DC6-5275-5EEC-84E84EC259D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C2E731-EE56-55C0-7963-BF3A46A27690" name="KARYAWAN_PKv1">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>1A910736-EF21-912C-4CDB-DBBF4E055BEB</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31087102-B83D-6511-081D-011952071F28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AC526DF-1FF5-BC70-92B5-7F3F6723F1DD" name="KARYAWAN_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<generatorID>D1717C58-EF73-9DE5-B0EF-70EC5D958DA1</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74F2E7F4-9DC6-5275-5EEC-84E84EC259D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

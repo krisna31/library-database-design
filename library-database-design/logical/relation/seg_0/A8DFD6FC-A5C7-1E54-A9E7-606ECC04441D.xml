@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="buku_salinan" directorySegmentName="seg_0" id="887CD58C-FF55-16A9-BEE1-8C30ADA1B4DB">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BUKU_GUDANG" directorySegmentName="seg_0" id="A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-08 14:55:22 UTC</createdTime>
+<createdTime>2023-04-10 13:55:25 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <sourcePk>82B882EB-3C0B-1752-4B97-CA948BF18371</sourcePk>
+<targetPk>5A959E8B-9C0F-2AD0-9E23-82403AD36C50</targetPk>
+<arc>10C97E1D-1B37-A272-C5A6-9180AF88C327</arc>
 <identifying>false</identifying>
-<nameOnSource>dimiliki</nameOnSource>
-<nameOnTarget>memiliki</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>29551B3A-38D1-6FD3-5F88-223A8053DF55</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>5C631F51-F506-6112-4F9E-FA1736CCEB89</targetEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E8778D85-C8C6-0983-19C0-DE15C890CFD5</targetEntity>
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relation>

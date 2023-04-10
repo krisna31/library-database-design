@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KRWN_MHS" directorySegmentName="seg_0" id="8A6D8309-A79B-11AD-A436-7F31B6F8B50F">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-10 13:51:56 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<targetPk>177C01BA-B4B0-6F28-A028-9BBFD8279A64</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B785684A-14B8-20E8-5C9F-AA5725F9337D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B785684A-14B8-20E8-5C9F-AA5725F9337D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
