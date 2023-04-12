@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8778D85-C8C6-0983-19C0-DE15C890CFD5" name="GUDANG">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB3CFBA8-A722-D000-1B78-03187DF7D148" name="BUKU_KATEGORI">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:54:17 UTC</createdTime>
+<createdTime>2023-04-12 14:27:58 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
@@ -15,58 +15,73 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="E250892B-2CEC-6321-13C4-516C33AF1C00">
+<Attribute name="dibuat_pada" id="CFDE9CB9-FC76-C3C9-A222-24EDEA1DB318">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:54:22 UTC</createdTime>
+<createdTime>2023-04-12 14:28:19 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="C074CFAA-DCF0-045A-4A64-0064DC6D715A">
+<Attribute name="id" id="595FA14F-1EC8-7752-9F21-5ACBF819314C">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:55:25 UTC</createdTime>
-<generatorID>A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D</generatorID>
+<createdTime>2023-04-12 14:29:10 UTC</createdTime>
+<generatorID>2532A562-2A6C-C29B-35FE-DD3875E91B77</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>47A5BCF3-850D-4C77-EC1C-461D97313A16</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="lokasi" id="71083CA4-0768-CB77-A609-55A5917C1F84">
+<Attribute name="id1" id="941F9606-3E54-454F-DF2E-EF6690989B57">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-12 14:21:43 UTC</createdTime>
+<createdTime>2023-04-12 14:29:47 UTC</createdTime>
+<generatorID>FDF22149-DC06-08E6-386C-D6A15E805741</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
+<referedAttribute>B59995A5-61E4-C4EF-B6B1-C399B0D38C85</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isFeatured" id="CD8E3520-48E2-8850-DBDE-CA8F56205155">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:30:17 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5A959E8B-9C0F-2AD0-9E23-82403AD36C50" name="GUDANG PK">
+<identifier id="08B48AEF-DEBE-A6D4-863B-73C9B65122BA" name="BUKU_KATEGORI PK">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:54:27 UTC</createdTime>
+<createdTime>2023-04-12 14:30:08 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E250892B-2CEC-6321-13C4-516C33AF1C00</attributeRef>
+<attributeRef>941F9606-3E54-454F-DF2E-EF6690989B57</attributeRef>
+<attributeRef>595FA14F-1EC8-7752-9F21-5ACBF819314C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PETUGAS_PENGEMBALIAN" directorySegmentName="seg_0" id="E12A9132-9D36-B9BF-1E27-233C39CE215D">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:15:49 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>177C01BA-B4B0-6F28-A028-9BBFD8279A64</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B785684A-14B8-20E8-5C9F-AA5725F9337D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0235049A-9B95-F369-B0EC-E12C155FC1AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

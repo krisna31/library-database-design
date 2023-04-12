@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANGGOTA_PENGEMBALIAN" directorySegmentName="seg_0" id="9622705D-13A1-B17F-CC89-FE5B8A14D5B9">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:02:49 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>07C94907-5F09-641D-5C87-1A30DD4D079B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2136FA6F-9BFE-1B0A-2F98-6F587F25A2AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0235049A-9B95-F369-B0EC-E12C155FC1AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

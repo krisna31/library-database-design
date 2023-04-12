@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="anggota_denda" directorySegmentName="seg_0" id="EDB94765-B237-C78C-0CA0-0C85E1C43FA6">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANGGOTA_PEMINJAMAN" directorySegmentName="seg_0" id="69561430-8400-2BDE-14B0-F5289B799299">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-08 15:05:03 UTC</createdTime>
+<createdTime>2023-04-12 14:01:56 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
 <engineerTo>
 <item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
@@ -9,15 +9,13 @@
 <sourceTransferable>false</sourceTransferable>
 <targetTransferable>false</targetTransferable>
 <sourcePk>07C94907-5F09-641D-5C87-1A30DD4D079B</sourcePk>
-<identifying>false</identifying>
-<nameOnSource>dimiliki</nameOnSource>
-<nameOnTarget>memiliki</nameOnTarget>
+<identifying>true</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2136FA6F-9BFE-1B0A-2F98-6F587F25A2AE</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>ABBC2083-1EF1-FCA4-D5EC-74E9AE3E1782</targetEntity>
+<targetEntity>D13A9F58-E6B6-679D-923E-694ED61430E6</targetEntity>
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relation>

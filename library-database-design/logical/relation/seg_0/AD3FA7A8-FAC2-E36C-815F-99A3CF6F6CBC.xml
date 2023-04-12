@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="jadwal_tugas_jadwal_petugas" directorySegmentName="seg_0" id="AD3FA7A8-FAC2-E36C-815F-99A3CF6F6CBC">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:35:39 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>BAF363BE-7243-051C-2D65-CEA80364F691</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B8EEBE4-50EF-AA17-7D68-44B717037D38</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3DE1F58-8700-89F0-A2CD-F3CFC031907D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

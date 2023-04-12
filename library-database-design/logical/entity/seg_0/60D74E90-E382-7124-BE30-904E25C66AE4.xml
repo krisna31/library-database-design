@@ -27,21 +27,6 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="83C1AB99-0D60-C849-F12C-7D2D8C060636">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:55:04 UTC</createdTime>
-<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<engineerTo>
-<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>47A5BCF3-850D-4C77-EC1C-461D97313A16</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="kolom" id="6D77EC80-6EAD-858F-C770-954C7770D55E">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:05:05 UTC</createdTime>
@@ -52,6 +37,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1274B1A8-1050-4843-8ED0-E34961755992">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:09:32 UTC</createdTime>
+<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>770A1E07-848C-147C-2CC4-50644EFC2F0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

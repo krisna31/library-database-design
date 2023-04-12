@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SALINAN_PENGEMBALIAN" directorySegmentName="seg_0" id="49E9248C-3639-CCE3-4427-15C89AF4635E">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:04:02 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>FCDA6F63-CDE4-1640-02EF-D92479E35857</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C631F51-F506-6112-4F9E-FA1736CCEB89</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0235049A-9B95-F369-B0EC-E12C155FC1AC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kategori_buku_kategori" directorySegmentName="seg_0" id="FDF22149-DC06-08E6-386C-D6A15E805741">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-12 14:29:47 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>92C85226-2B70-1D46-EBC9-C715530F963D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EBB3D165-2C6D-90EC-DBB0-8736B8D2A700</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB3CFBA8-A722-D000-1B78-03187DF7D148</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
