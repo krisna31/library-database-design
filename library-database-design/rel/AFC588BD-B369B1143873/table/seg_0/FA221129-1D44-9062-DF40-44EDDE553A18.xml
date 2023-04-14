@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA221129-1D44-9062-DF40-44EDDE553A18" name="PENGEMBALIAN">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>0235049A-9B95-F369-B0EC-E12C155FC1AC</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="57647789-85AF-E449-9919-104927E43D1D">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>76524244-1DAC-587E-A611-60C71BA18F64</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANGGOTA_id" id="17421A21-A666-B28A-DD74-21B3E488A0AF">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>12CE07D4-7F41-F0CA-C113-9640EB0A6443</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DBAFDA5-8E04-E22C-8266-FB6C80E7CB89" referredColumn="4327571D-8B79-1472-1652-BA78C773FFD0"/>
+</associations>
+</Column>
+<Column name="SALINAN_id" id="85EAAF0D-5FA6-B043-3C03-6038BBBB3FBE">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>C77F435A-C220-20F2-A994-AA6253CA401D</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pengembalian" id="2F39C769-C967-605A-5FAF-CEA5A97E552C">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>7579586F-F22C-C78B-AEF8-2740389FBBA1</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denda" id="F5574993-DC92-0DDB-74CE-20C2108C71D6">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>0E51B2C5-791B-044A-C632-626738958ECF</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PETUGAS_id" id="965A0724-4375-ECD9-8C1B-2D39F41CE0A4">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>681B1F8E-9883-25E8-D63D-18392E4854E3</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C190E9F8-F5E1-7A80-BFB9-54258FBD5D3B" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
+</associations>
+</Column>
+<Column name="PEMINJAMAN_SALINAN_id" id="B12A30AF-C068-9CBA-340D-C8A19C4028CC">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:19 UTC</createdTime>
+<generatorID>828BFF6D-AF64-B71B-C010-359AAFBA26F0</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF8216F-E07D-7AEE-03F5-43C412A20840" referredColumn="E8E9CC12-321F-6FC8-AC04-70F47A439176"/>
+</associations>
+</Column>
+<Column name="PEMINJAMAN_ANGGOTA_id" id="B8FC2B09-B4D3-5893-02B8-5B36BC4C8CB6">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:19 UTC</createdTime>
+<generatorID>C91BB632-A133-CA20-B182-C445C614B3D9</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF8216F-E07D-7AEE-03F5-43C412A20840" referredColumn="D766195B-EE45-ABB6-26A1-1A1258AFA778"/>
+</associations>
+</Column>
+<Column name="PEMINJAMAN_id" id="F9ED7EF4-C79F-B97C-7BE8-9A6F217D04BB">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:19 UTC</createdTime>
+<generatorID>4DD924F6-8006-3F16-03EF-568D35BEFEA4</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF8216F-E07D-7AEE-03F5-43C412A20840" referredColumn="2723EB06-BB90-A1CC-D79E-442440DB77BC"/>
+</associations>
+</Column>
+<Column name="PEMINJAMAN_PETUGAS_id" id="FDD6E595-4BC1-0891-4415-6E2532C9128C">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:19 UTC</createdTime>
+<generatorID>3C505F7B-3ADD-1A95-41F7-B0E09CCB1D90</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF8216F-E07D-7AEE-03F5-43C412A20840" referredColumn="128C8485-13E6-1F18-7EDF-AFBC91045842"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E290EBB0-5DC6-5376-A375-CE1B2B2CE7DD" name="PENGEMBALIAN_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>84325957-338B-4AEE-1ECC-C21A54A60446</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85EAAF0D-5FA6-B043-3C03-6038BBBB3FBE"/>
+<colUsage columnID="17421A21-A666-B28A-DD74-21B3E488A0AF"/>
+<colUsage columnID="57647789-85AF-E449-9919-104927E43D1D"/>
+<colUsage columnID="965A0724-4375-ECD9-8C1B-2D39F41CE0A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66EEDEC4-8178-2F5E-9E5B-3A4326CD0B65" name="PENGEMBALIAN__IDX">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:19 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E55047EC-B1E6-A180-73E1-49510FF199F5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B12A30AF-C068-9CBA-340D-C8A19C4028CC"/>
+<colUsage columnID="B8FC2B09-B4D3-5893-02B8-5B36BC4C8CB6"/>
+<colUsage columnID="F9ED7EF4-C79F-B97C-7BE8-9A6F217D04BB"/>
+<colUsage columnID="FDD6E595-4BC1-0891-4415-6E2532C9128C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBDDAC22-1999-2E92-F0A1-7757464A3D7E" name="PENGEMBALIAN_ANGGOTA_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>9622705D-13A1-B17F-CC89-FE5B8A14D5B9</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17421A21-A666-B28A-DD74-21B3E488A0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECEFD741-D4EA-423F-45DF-729E187B5E9A" name="PENGEMBALIAN_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>E12A9132-9D36-B9BF-1E27-233C39CE215D</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965A0724-4375-ECD9-8C1B-2D39F41CE0A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="565796DF-CC17-0CE3-6789-131C29623172" name="PENGEMBALIAN_PEMINJAMAN_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:19 UTC</createdTime>
+<generatorID>E55047EC-B1E6-A180-73E1-49510FF199F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B12A30AF-C068-9CBA-340D-C8A19C4028CC"/>
+<colUsage columnID="B8FC2B09-B4D3-5893-02B8-5B36BC4C8CB6"/>
+<colUsage columnID="F9ED7EF4-C79F-B97C-7BE8-9A6F217D04BB"/>
+<colUsage columnID="FDD6E595-4BC1-0891-4415-6E2532C9128C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

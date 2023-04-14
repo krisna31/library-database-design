@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DC2E8D-6023-00FB-8C17-91B797CA5C8E" name="MAHASISWA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DC2E8D-6023-00FB-8C17-91B797CA5C8E" name="SEMENTARA">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>EEB48554-EC73-DCCB-4E52-BE3329170DE2</generatorID>
@@ -47,7 +47,7 @@
 <colUsage columnID="10B114F4-8FF8-7262-7772-3FADFCC4FCC8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4B5E92C3-0920-B547-710D-68F3C06AD6AA" name="MAHASISWA_PKv1">
+<ind_PK_UK id="4B5E92C3-0920-B547-710D-68F3C06AD6AA" name="SEMENTARA_PK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>7AA04949-3156-34EE-00EC-E291FEFCE706</generatorID>

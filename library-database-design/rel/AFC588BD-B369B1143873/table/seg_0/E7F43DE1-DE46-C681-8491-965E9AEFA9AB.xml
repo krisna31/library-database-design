@@ -34,6 +34,54 @@
 <colAssociation fkAssociation="2F5DBE5B-1547-2A29-4091-0615EB0E2F8D" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
 </associations>
 </Column>
+<Column name="honor" id="1571E394-4328-542F-A48E-E44637447389">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>B093DBDA-9387-A3F3-02B9-51915ADDF7EC</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="98969BE9-B726-4980-8153-0E23CBD829D7">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>26D4EBDB-A54C-F386-0EAF-379CCA00FC72</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="C2D101D8-A4EC-A364-AFF9-20728D45A153">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>9B9504A6-F31F-6702-8174-174D92FE369D</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_hp" id="7082B3F5-55DE-2832-BF68-4B0C5DBD29F7">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>3A23E7B4-7142-FCC6-56F0-375F8BCF01CF</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="154F0975-F7EF-30A3-3E1D-A5444943E2C0" name="PETUGAS_PK">

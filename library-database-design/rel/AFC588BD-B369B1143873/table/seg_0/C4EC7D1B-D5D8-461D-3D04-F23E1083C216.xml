@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4EC7D1B-D5D8-461D-3D04-F23E1083C216" name="KARYAWAN">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4EC7D1B-D5D8-461D-3D04-F23E1083C216" name="TETAP">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>8C43B3A8-EC2E-61F9-C951-664AAC38D45E</generatorID>
@@ -22,7 +22,7 @@
 <colAssociation fkAssociation="C557DA0B-48EC-BD8E-A4C4-2DFD4E99EDB8" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
 </associations>
 </Column>
-<Column name="id1" id="31087102-B83D-6511-081D-011952071F28">
+<Column name="nip" id="31087102-B83D-6511-081D-011952071F28">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>E46159BF-9555-BD13-DDFB-138E1808E2CB</generatorID>
@@ -47,7 +47,7 @@
 <colUsage columnID="74F2E7F4-9DC6-5275-5EEC-84E84EC259D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="90C2E731-EE56-55C0-7963-BF3A46A27690" name="KARYAWAN_PKv1">
+<ind_PK_UK id="90C2E731-EE56-55C0-7963-BF3A46A27690" name="TETAP_PK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>1A910736-EF21-912C-4CDB-DBBF4E055BEB</generatorID>

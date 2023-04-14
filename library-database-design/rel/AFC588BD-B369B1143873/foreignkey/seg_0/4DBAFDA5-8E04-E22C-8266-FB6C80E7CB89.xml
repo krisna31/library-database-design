@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4DBAFDA5-8E04-E22C-8266-FB6C80E7CB89" containerWithKeyObject="FA221129-1D44-9062-DF40-44EDDE553A18" localFKIndex="DBDDAC22-1999-2E92-F0A1-7757464A3D7E" name="PENGEMBALIAN_ANGGOTA_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>9622705D-13A1-B17F-CC89-FE5B8A14D5B9</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<referredTableLongName>ANGGOTA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>675FD0C3-8D5A-00E9-954F-B24FBD2EA6C6</referredTableID>
+<keyObject>B7C0FAD4-CE61-B56D-EFF8-0ED27ACBAF28</keyObject>
+<referredKeyID>B7C0FAD4-CE61-B56D-EFF8-0ED27ACBAF28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

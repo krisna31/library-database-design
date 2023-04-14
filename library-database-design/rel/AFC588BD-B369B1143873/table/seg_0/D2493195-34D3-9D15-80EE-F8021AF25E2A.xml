@@ -104,7 +104,7 @@
 <colAssociation fkAssociation="6571140D-F8C9-28F9-7D09-5EEB03F1F047" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
 </associations>
 </Column>
-<Column name="RAK_id" id="A989CB15-C1F1-9839-6879-09148FCA91CE">
+<Column name="id2" id="A989CB15-C1F1-9839-6879-09148FCA91CE">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>420B3F39-E625-2B75-7593-74C7F2E91A97</generatorID>
@@ -116,11 +116,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="39457B6B-1C86-4E65-64CD-D644E157A516" referredColumn="B9821044-FD65-0140-F9F5-0BD97E56EA0C"/>
-</associations>
 </Column>
-<Column name="GUDANG_id" id="622525A0-95D0-7C60-6AD9-3B9DC75FF594">
+<Column name="id3" id="622525A0-95D0-7C60-6AD9-3B9DC75FF594">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>77DB12BC-7077-71E2-6A82-A5BBDCCEBCBD</generatorID>
@@ -132,9 +129,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="AFA38EEA-9465-B56B-B611-F69F2224F054" referredColumn="F551B8A5-BBEB-2D29-1595-B128C6345FDA"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -181,28 +175,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="91569D15-DCA5-0C2B-DB85-02702DCEBE50"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0A514ECA-E24F-CF8A-A4CD-2639F19E0ACE" name="BUKU_GUDANG_FK">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-10 14:02:51 UTC</createdTime>
-<generatorID>A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="622525A0-95D0-7C60-6AD9-3B9DC75FF594"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4FE3DB9B-8F23-5307-DBAD-7837B394586F" name="BUKU_RAK_FK">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-10 14:02:51 UTC</createdTime>
-<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A989CB15-C1F1-9839-6879-09148FCA91CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

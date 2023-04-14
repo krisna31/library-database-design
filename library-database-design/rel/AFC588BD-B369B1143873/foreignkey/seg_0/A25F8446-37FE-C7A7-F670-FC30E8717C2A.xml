@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A25F8446-37FE-C7A7-F670-FC30E8717C2A" containerWithKeyObject="97F69175-D055-C6D6-2A7B-17710256115D" localFKIndex="061443F7-D78D-7EAB-1B02-8B97B26C3873" name="DETAIL_PENGEMBALIAN_PENGEMBALIAN_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:35:16 UTC</createdTime>
+<generatorID>D128091B-2382-C409-A090-46E025560E91</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<referredTableLongName>PENGEMBALIAN</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>FA221129-1D44-9062-DF40-44EDDE553A18</referredTableID>
+<keyObject>E290EBB0-5DC6-5376-A375-CE1B2B2CE7DD</keyObject>
+<referredKeyID>E290EBB0-5DC6-5376-A375-CE1B2B2CE7DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SALINAN_id,ANGGOTA_id,id,PETUGAS_id</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

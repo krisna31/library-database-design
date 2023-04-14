@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFA38EEA-9465-B56B-B611-F69F2224F054" containerWithKeyObject="D2493195-34D3-9D15-80EE-F8021AF25E2A" localFKIndex="0A514ECA-E24F-CF8A-A4CD-2639F19E0ACE" name="BUKU_GUDANG_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E54B5A95-D9F7-F2F1-83B2-C4DD0C526C67" containerWithKeyObject="3A0EC8E9-88BD-E81D-EF29-0B312EC22364" localFKIndex="C22A237F-2A69-3974-E68A-35A3FDC1F0B4" name="SALINAN_GUDANG_FK">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 14:02:51 UTC</createdTime>
+<createdTime>2023-04-14 13:35:16 UTC</createdTime>
 <generatorID>A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
 <referredTableLongName>GUDANG</referredTableLongName>
-<arc>E897D20E-E13B-173B-0EF6-F230567D9958</arc>
 <deleteRule>CASCADE</deleteRule>
 <referredTableID>54018A2D-8AF2-A3CB-CF4F-EE888E33CDBA</referredTableID>
 <keyObject>7DDEE090-00C1-A293-E73E-EFDBF288914D</keyObject>

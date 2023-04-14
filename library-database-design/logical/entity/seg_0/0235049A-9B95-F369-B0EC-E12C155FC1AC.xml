@@ -94,14 +94,85 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id21" id="828BFF6D-AF64-B71B-C010-359AAFBA26F0">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:06 UTC</createdTime>
+<generatorID>E55047EC-B1E6-A180-73E1-49510FF199F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>771E12DE-A5CC-B7E1-EB05-EB295AEB04E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="C91BB632-A133-CA20-B182-C445C614B3D9">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:06 UTC</createdTime>
+<generatorID>E55047EC-B1E6-A180-73E1-49510FF199F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>CE5CED19-5649-437E-4135-DDE99107EE65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="4DD924F6-8006-3F16-03EF-568D35BEFEA4">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:06 UTC</createdTime>
+<generatorID>E55047EC-B1E6-A180-73E1-49510FF199F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>F5407272-8A34-5AF1-FE65-0F9B70C1C9F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id31" id="3C505F7B-3ADD-1A95-41F7-B0E09CCB1D90">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:32:06 UTC</createdTime>
+<generatorID>E55047EC-B1E6-A180-73E1-49510FF199F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>52D71B74-3AB6-C463-BE2D-D538DACA1AEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id5" id="BC547900-535E-7296-D016-BBD105619388">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:39:08 UTC</createdTime>
+<generatorID>1DFA328A-D6F8-875A-019C-0A261CBA32CA</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>770A1E07-848C-147C-2CC4-50644EFC2F0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="84325957-338B-4AEE-1ECC-C21A54A60446" name="PENGEMBALIAN PK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-12 14:10:02 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -109,6 +180,10 @@
 <attributeRef>12CE07D4-7F41-F0CA-C113-9640EB0A6443</attributeRef>
 <attributeRef>76524244-1DAC-587E-A611-60C71BA18F64</attributeRef>
 <attributeRef>681B1F8E-9883-25E8-D63D-18392E4854E3</attributeRef>
+<attributeRef>828BFF6D-AF64-B71B-C010-359AAFBA26F0</attributeRef>
+<attributeRef>C91BB632-A133-CA20-B182-C445C614B3D9</attributeRef>
+<attributeRef>4DD924F6-8006-3F16-03EF-568D35BEFEA4</attributeRef>
+<attributeRef>3C505F7B-3ADD-1A95-41F7-B0E09CCB1D90</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Peminjaman_Pengembalian" directorySegmentName="seg_0" id="E55047EC-B1E6-A180-73E1-49510FF199F5">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:26:57 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>84325957-338B-4AEE-1ECC-C21A54A60446</sourcePk>
+<targetPk>A51353AE-5C5A-D332-D0C5-5FD07C05AA83</targetPk>
+<dominantRole>D13A9F58-E6B6-679D-923E-694ED61430E6</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0235049A-9B95-F369-B0EC-E12C155FC1AC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D13A9F58-E6B6-679D-923E-694ED61430E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

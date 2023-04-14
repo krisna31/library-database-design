@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53C6DDD0-9C5C-CD54-1638-EF29B99B3ED2" containerWithKeyObject="A6D76B9A-93BF-926D-1CB7-738C707E24E7" localFKIndex="E5A69547-51AC-997F-AE6B-8193F6EF1E12" name="BUKU_KATEGORIv2_KATEGORI_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-14 13:14:00 UTC</createdTime>
+<generatorID>FDF22149-DC06-08E6-386C-D6A15E805741</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<referredTableLongName>KATEGORI</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C881A7D2-0EFD-7D9A-BBC4-0CDF5346AA67</referredTableID>
+<keyObject>1DA24AF1-59DD-964E-8890-6CAFA3CF27D5</keyObject>
+<referredKeyID>1DA24AF1-59DD-964E-8890-6CAFA3CF27D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
