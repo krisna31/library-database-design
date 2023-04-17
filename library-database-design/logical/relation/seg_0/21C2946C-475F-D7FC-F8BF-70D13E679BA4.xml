@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Buku_Buku_Penerbit" directorySegmentName="seg_0" id="21C2946C-475F-D7FC-F8BF-70D13E679BA4">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-17 09:16:51 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>82B882EB-3C0B-1752-4B97-CA948BF18371</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29551B3A-38D1-6FD3-5F88-223A8053DF55</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5E00E0A-2ACA-1D59-869A-4431A9E44D2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
