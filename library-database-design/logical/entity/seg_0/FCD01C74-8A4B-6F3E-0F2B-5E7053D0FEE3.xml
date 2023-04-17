@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCD01C74-8A4B-6F3E-0F2B-5E7053D0FEE3" name="PENULIS_BUKU">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-17 09:04:01 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="41BE42A9-E7C3-6FAF-55C7-F9D2AB02AE8E">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-17 09:07:29 UTC</createdTime>
+<generatorID>CB49D518-F5A6-93EB-BA2B-383075F23304</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>47A5BCF3-850D-4C77-EC1C-461D97313A16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="65D68C1E-47AD-0FF3-C4F3-25E506358F93">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-17 09:09:00 UTC</createdTime>
+<generatorID>A1A91851-4163-04F9-6125-57601B4EC9F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>4CD23DCD-9C99-2181-FFF2-A6F2B16C7B85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="417F3D27-9D76-6D93-BAE4-DF4EB2FA4914" name="Penulis_Buku PK">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-17 09:08:35 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41BE42A9-E7C3-6FAF-55C7-F9D2AB02AE8E</attributeRef>
+<attributeRef>65D68C1E-47AD-0FF3-C4F3-25E506358F93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

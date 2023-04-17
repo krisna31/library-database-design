@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Buku_Penulis_Buku" directorySegmentName="seg_0" id="CB49D518-F5A6-93EB-BA2B-383075F23304">
+<createdBy>u-mdp</createdBy>
+<createdTime>2023-04-17 09:07:29 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>82B882EB-3C0B-1752-4B97-CA948BF18371</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29551B3A-38D1-6FD3-5F88-223A8053DF55</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FCD01C74-8A4B-6F3E-0F2B-5E7053D0FEE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
