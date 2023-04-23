@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFA88328-9A70-DB18-8711-DEC83E6701CB" containerWithKeyObject="DEB6BC9E-E84E-47E0-A573-4B07738094CA" localFKIndex="2FD87F0A-B8B4-8822-0ED1-76D2ED8624CB" name="BUKU_PENERBITv1_PENERBIT_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:50:24 UTC</createdTime>
+<generatorID>2488A1ED-810E-3FC6-EAF8-DE5EE65387FE</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<referredTableLongName>PENERBIT</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>57733434-9B9A-A21C-47D4-98F021585014</referredTableID>
+<keyObject>A3107670-8810-0008-4BB7-749E50A91D7D</keyObject>
+<referredKeyID>A3107670-8810-0008-4BB7-749E50A91D7D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

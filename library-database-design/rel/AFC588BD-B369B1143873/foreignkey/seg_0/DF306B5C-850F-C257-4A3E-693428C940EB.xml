@@ -1,11 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FD1D0D1-4C03-B044-C112-66BB10E32004" containerWithKeyObject="A6D76B9A-93BF-926D-1CB7-738C707E24E7" localFKIndex="0262165E-FC70-3D49-1F13-44738ED8646D" name="BUKU_KATEGORIv1_BUKU_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF306B5C-850F-C257-4A3E-693428C940EB" containerWithKeyObject="DEB6BC9E-E84E-47E0-A573-4B07738094CA" localFKIndex="B49E4B82-561F-2E0F-8D20-128A86A5A7A6" name="BUKU_PENERBITv1_BUKU_FK">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-14 13:14:00 UTC</createdTime>
-<generatorID>2532A562-2A6C-C29B-35FE-DD3875E91B77</generatorID>
+<createdTime>2023-04-23 13:50:23 UTC</createdTime>
+<generatorID>21C2946C-475F-D7FC-F8BF-70D13E679BA4</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
 <referredTableLongName>BUKU</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>D2493195-34D3-9D15-80EE-F8021AF25E2A</referredTableID>
 <keyObject>76E91256-0204-630E-D544-6AE35ACA1002</keyObject>
 <referredKeyID>76E91256-0204-630E-D544-6AE35ACA1002</referredKeyID>

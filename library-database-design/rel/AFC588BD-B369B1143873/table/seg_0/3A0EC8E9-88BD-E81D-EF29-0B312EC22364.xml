@@ -59,9 +59,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A662E88C-1581-B641-1CAC-29509427905E" referredColumn="B9821044-FD65-0140-F9F5-0BD97E56EA0C"/>
-</associations>
 </Column>
 <Column name="GUDANG_id" id="9EA982BB-EE0C-8E4E-7AAF-AE57139925DB">
 <createdBy>krisna</createdBy>
@@ -75,9 +72,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E54B5A95-D9F7-F2F1-83B2-C4DD0C526C67" referredColumn="F551B8A5-BBEB-2D29-1595-B128C6345FDA"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -124,28 +118,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="58523751-70C6-DFCD-7B28-8D2E0C839B22"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C22A237F-2A69-3974-E68A-35A3FDC1F0B4" name="SALINAN_GUDANG_FK">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-14 13:35:16 UTC</createdTime>
-<generatorID>A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9EA982BB-EE0C-8E4E-7AAF-AE57139925DB"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="501646DC-7C9E-87A3-B7AA-007DA0A9A80B" name="SALINAN_RAK_FK">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-14 13:35:16 UTC</createdTime>
-<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D483B318-FBF6-60DB-4AA4-20BDC6CA5B75"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

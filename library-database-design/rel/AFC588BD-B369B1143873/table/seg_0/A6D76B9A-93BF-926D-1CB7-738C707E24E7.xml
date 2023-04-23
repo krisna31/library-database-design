@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6D76B9A-93BF-926D-1CB7-738C707E24E7" name="BUKU_KATEGORIv1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6D76B9A-93BF-926D-1CB7-738C707E24E7" name="BUKU_KATEGORIv2">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>BB3CFBA8-A722-D000-1B78-03187DF7D148</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="3631A2EF-9488-76AD-B8DF-6E4898C0FFB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0262165E-FC70-3D49-1F13-44738ED8646D" name="BUKU_KATEGORIv2_BUKU_FK">
+<ind_PK_UK id="0262165E-FC70-3D49-1F13-44738ED8646D" name="BUKU_KATEGORIv1_BUKU_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>2532A562-2A6C-C29B-35FE-DD3875E91B77</generatorID>
@@ -88,7 +88,7 @@
 <colUsage columnID="3631A2EF-9488-76AD-B8DF-6E4898C0FFB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E5A69547-51AC-997F-AE6B-8193F6EF1E12" name="BUKU_KATEGORIv2_KATEGORI_FK">
+<ind_PK_UK id="E5A69547-51AC-997F-AE6B-8193F6EF1E12" name="BUKU_KATEGORIv1_KATEGORI_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>FDF22149-DC06-08E6-386C-D6A15E805741</generatorID>

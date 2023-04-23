@@ -34,7 +34,7 @@
 <colAssociation fkAssociation="4DBAFDA5-8E04-E22C-8266-FB6C80E7CB89" referredColumn="4327571D-8B79-1472-1652-BA78C773FFD0"/>
 </associations>
 </Column>
-<Column name="SALINAN_id" id="85EAAF0D-5FA6-B043-3C03-6038BBBB3FBE">
+<Column name="id2" id="85EAAF0D-5FA6-B043-3C03-6038BBBB3FBE">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>C77F435A-C220-20F2-A994-AA6253CA401D</generatorID>
@@ -144,6 +144,21 @@
 <colAssociation fkAssociation="5FF8216F-E07D-7AEE-03F5-43C412A20840" referredColumn="128C8485-13E6-1F18-7EDF-AFBC91045842"/>
 </associations>
 </Column>
+<Column name="SALINAN_id" id="A3D5EF62-9447-B1EB-65A6-0A7EB7CE3EE4">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:50:23 UTC</createdTime>
+<generatorID>BC547900-535E-7296-D016-BBD105619388</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7353F057-015A-E483-E11F-6626817FD6EF" referredColumn="392DE151-A08F-2B00-2296-6527DFDDBA39"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E290EBB0-5DC6-5376-A375-CE1B2B2CE7DD" name="PENGEMBALIAN_PK">
@@ -209,6 +224,17 @@
 <colUsage columnID="B8FC2B09-B4D3-5893-02B8-5B36BC4C8CB6"/>
 <colUsage columnID="F9ED7EF4-C79F-B97C-7BE8-9A6F217D04BB"/>
 <colUsage columnID="FDD6E595-4BC1-0891-4415-6E2532C9128C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45BC13C3-71D5-B820-AE90-B391FA8AB226" name="PENGEMBALIAN_SALINAN_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:50:24 UTC</createdTime>
+<generatorID>1DFA328A-D6F8-875A-019C-0A261CBA32CA</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D5EF62-9447-B1EB-65A6-0A7EB7CE3EE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

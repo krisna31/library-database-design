@@ -96,6 +96,33 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="alamat" id="CB741342-03E5-311D-7AD0-75C3A7BF5485">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:47:34 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="D1DE29CF-D83A-1315-53DA-E60CD2A41446">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:49:34 UTC</createdTime>
+<generatorID>0B399FDD-52B7-F045-3CA9-99AB29C8B3B1</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>DBC496E6-E54B-6656-5281-F473DBC787FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="177C01BA-B4B0-6F28-A028-9BBFD8279A64" name="PETUGAS PK">

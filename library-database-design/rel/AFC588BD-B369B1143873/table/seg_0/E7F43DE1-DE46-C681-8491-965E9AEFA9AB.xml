@@ -82,6 +82,33 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="alamat" id="013EA548-EA32-C923-5238-D3E359540D03">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:50:23 UTC</createdTime>
+<generatorID>CB741342-03E5-311D-7AD0-75C3A7BF5485</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOTA_id" id="67FE1726-D2B6-6CF6-23AA-A85842F41DC0">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:50:23 UTC</createdTime>
+<generatorID>D1DE29CF-D83A-1315-53DA-E60CD2A41446</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A649BB6-20E2-DD64-E854-04FE42390690" referredColumn="C871C2F5-84E7-93B8-5BC3-46F60B8D0466"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="154F0975-F7EF-30A3-3E1D-A5444943E2C0" name="PETUGAS_PK">
@@ -105,6 +132,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2F7C324B-DFB5-E325-821A-E781420046ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D661DA5-8AD2-E402-0792-0135AAC7D900" name="PETUGAS_KOTA_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-23 13:50:24 UTC</createdTime>
+<generatorID>0B399FDD-52B7-F045-3CA9-99AB29C8B3B1</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67FE1726-D2B6-6CF6-23AA-A85842F41DC0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

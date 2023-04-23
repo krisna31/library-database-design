@@ -92,13 +92,5 @@
 <colUsage columnID="0AE362BD-B9D8-A323-B3C1-769FC21599DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="093128C2-BAA1-CE3F-0F1D-D8B8CF42B28B" name="GUDANG_SALINAN_FK">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-14 13:35:16 UTC</createdTime>
-<generatorID>A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-</ind_PK_UK>
 </indexes>
 </Table>
