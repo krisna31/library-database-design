@@ -19,19 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id1" id="09C44DA6-06EF-0343-BF8A-D39521213C30">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-10 14:02:51 UTC</createdTime>
-<generatorID>C074CFAA-DCF0-045A-4A64-0064DC6D715A</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="lokasi" id="234E828C-DB1C-2182-3855-EC40BB64A642">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
@@ -77,11 +64,8 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>A8DFD6FC-A5C7-1E54-A9E7-606ECC04441D</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="09C44DA6-06EF-0343-BF8A-D39521213C30"/>
-</indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="13875BC6-7BA7-80BC-5F4E-11BE3E961E4E" name="GUDANG__IDX">
+<ind_PK_UK id="13875BC6-7BA7-80BC-5F4E-11BE3E961E4E" name="GUDANG__IDXv1">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:29:17 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>

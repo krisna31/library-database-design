@@ -36,7 +36,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FF90CA4E-CF23-5CCE-4183-49E0825EE463" name="KARYAWAN_PK">
+<ind_PK_UK id="FF90CA4E-CF23-5CCE-4183-49E0825EE463" name="PUSTAKAWAN_PKv2">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>177C01BA-B4B0-6F28-A028-9BBFD8279A64</generatorID>
@@ -48,7 +48,7 @@
 <colUsage columnID="74F2E7F4-9DC6-5275-5EEC-84E84EC259D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="90C2E731-EE56-55C0-7963-BF3A46A27690" name="TETAP_PK">
+<ind_PK_UK id="90C2E731-EE56-55C0-7963-BF3A46A27690" name="PUSTAKAWAN_PK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>1A910736-EF21-912C-4CDB-DBBF4E055BEB</generatorID>
@@ -59,7 +59,7 @@
 <colUsage columnID="31087102-B83D-6511-081D-011952071F28"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4AC526DF-1FF5-BC70-92B5-7F3F6723F1DD" name="KARYAWAN_PETUGAS_FK">
+<ind_PK_UK id="4AC526DF-1FF5-BC70-92B5-7F3F6723F1DD" name="PUSTAKAWAN_PETUGAS_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>D1717C58-EF73-9DE5-B0EF-70EC5D958DA1</generatorID>

@@ -19,19 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BUKU_id" id="E105806C-DC39-0893-60A4-B8F2F3534EAB">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-10 14:02:51 UTC</createdTime>
-<generatorID>83C1AB99-0D60-C849-F12C-7D2D8C060636</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="kolom" id="A8D3D32B-EF52-E09C-73DA-6509E3A31DDD">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
@@ -80,11 +67,8 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="E105806C-DC39-0893-60A4-B8F2F3534EAB"/>
-</indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5CBE626D-630A-71E9-E9B3-D8F6CBDAD354" name="RAK__IDX">
+<ind_PK_UK id="5CBE626D-630A-71E9-E9B3-D8F6CBDAD354" name="RAK__IDXv1">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:29:17 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>

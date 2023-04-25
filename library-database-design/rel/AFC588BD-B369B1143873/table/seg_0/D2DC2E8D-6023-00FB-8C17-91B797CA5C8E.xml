@@ -35,11 +35,11 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7CC3DED1-DE1A-C9B8-0731-6456D5803713" name="MAHASISWA_PK">
+<ind_PK_UK id="F7EA576B-1D6A-5B01-EA4B-46E1EFBB0F53" name="ADMIN_PK">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 14:02:51 UTC</createdTime>
-<generatorID>177C01BA-B4B0-6F28-A028-9BBFD8279A64</generatorID>
+<createdTime>2023-04-25 06:52:53 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -47,7 +47,7 @@
 <colUsage columnID="10B114F4-8FF8-7262-7772-3FADFCC4FCC8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4B5E92C3-0920-B547-710D-68F3C06AD6AA" name="SEMENTARA_PK">
+<ind_PK_UK id="4B5E92C3-0920-B547-710D-68F3C06AD6AA" name="ADMIN_PKv1">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>7AA04949-3156-34EE-00EC-E291FEFCE706</generatorID>
@@ -58,7 +58,7 @@
 <colUsage columnID="45E128A4-FFFD-5746-E4DD-F8C1A05C65D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E3834AC6-753C-6EC6-D2D8-61D8B1086E56" name="MAHASISWA_PETUGAS_FK">
+<ind_PK_UK id="E3834AC6-753C-6EC6-D2D8-61D8B1086E56" name="ADMIN_PETUGAS_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>DCF1CC1A-9705-820A-E51A-FCA8A7A9B214</generatorID>
