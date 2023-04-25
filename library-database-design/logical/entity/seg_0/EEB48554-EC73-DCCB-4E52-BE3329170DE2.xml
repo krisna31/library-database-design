@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEB48554-EC73-DCCB-4E52-BE3329170DE2" name="SEMENTARA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEB48554-EC73-DCCB-4E52-BE3329170DE2" name="ADMIN">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 13:50:08 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nim" id="C33859E7-1543-6DCB-1A5E-E595F62FB995">
+<Attribute name="hak_akses" id="C33859E7-1543-6DCB-1A5E-E595F62FB995">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 13:50:29 UTC</createdTime>
 <ownerDesignName>library-database-design</ownerDesignName>
@@ -25,22 +25,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7AA04949-3156-34EE-00EC-E291FEFCE706" name="Mahasiswa PK">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:50:35 UTC</createdTime>
-<ownerDesignName>library-database-design</ownerDesignName>
-<engineerTo>
-<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>C33859E7-1543-6DCB-1A5E-E595F62FB995</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>
