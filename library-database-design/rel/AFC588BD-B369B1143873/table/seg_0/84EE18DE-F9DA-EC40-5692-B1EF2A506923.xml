@@ -64,7 +64,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="764F9AA0-258C-0FC3-DD34-34687F1D9F13" name="JADWAL_PETUGAS_PK">
+<ind_PK_UK id="764F9AA0-258C-0FC3-DD34-34687F1D9F13" name="PENUGASAN_PK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>2ADBD29C-2B0C-6A85-838B-64FE195E0543</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="493EAD88-216F-6573-6EBA-71079374A486"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="192074EE-0D61-F326-B4CE-78C63874B562" name="JADWAL_PETUGAS_JADWAL_TUGAS_FK">
+<ind_PK_UK id="192074EE-0D61-F326-B4CE-78C63874B562" name="PENUGASAN_JADWAL_TUGAS_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>AD3FA7A8-FAC2-E36C-815F-99A3CF6F6CBC</generatorID>
@@ -88,7 +88,7 @@
 <colUsage columnID="493EAD88-216F-6573-6EBA-71079374A486"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="83127A4E-C429-5219-734F-2BD5E9921B93" name="JADWAL_PETUGAS_PETUGAS_FK">
+<ind_PK_UK id="83127A4E-C429-5219-734F-2BD5E9921B93" name="PENUGASAN_PETUGAS_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>23F00060-284E-A2CC-A962-4CB390E5C137</generatorID>

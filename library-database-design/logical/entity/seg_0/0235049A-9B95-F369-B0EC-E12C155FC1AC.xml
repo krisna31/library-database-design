@@ -41,20 +41,6 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="C77F435A-C220-20F2-A994-AA6253CA401D">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-12 14:04:02 UTC</createdTime>
-<generatorID>49E9248C-3639-CCE3-4427-15C89AF4635E</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<engineerTo>
-<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
-</engineerTo>
-<referedAttribute>770A1E07-848C-147C-2CC4-50644EFC2F0C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="tanggal_pengembalian" id="7579586F-F22C-C78B-AEF8-2740389FBBA1">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-12 14:11:10 UTC</createdTime>
@@ -176,7 +162,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C77F435A-C220-20F2-A994-AA6253CA401D</attributeRef>
 <attributeRef>12CE07D4-7F41-F0CA-C113-9640EB0A6443</attributeRef>
 <attributeRef>76524244-1DAC-587E-A611-60C71BA18F64</attributeRef>
 <attributeRef>681B1F8E-9883-25E8-D63D-18392E4854E3</attributeRef>

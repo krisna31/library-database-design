@@ -91,6 +91,18 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="password" id="E9C0F0D5-C3F8-F8C3-AFBC-5A4B1F0D5E0C">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-25 06:35:34 UTC</createdTime>
+<generatorID>E1B85039-3A6B-89A5-AA3F-9EAC003DCB59</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B7C0FAD4-CE61-B56D-EFF8-0ED27ACBAF28" name="ANGGOTA_PK">

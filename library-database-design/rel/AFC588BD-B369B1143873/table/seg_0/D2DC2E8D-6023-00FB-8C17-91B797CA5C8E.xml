@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DC2E8D-6023-00FB-8C17-91B797CA5C8E" name="SEMENTARA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DC2E8D-6023-00FB-8C17-91B797CA5C8E" name="ADMIN">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>EEB48554-EC73-DCCB-4E52-BE3329170DE2</generatorID>
@@ -22,7 +22,7 @@
 <colAssociation fkAssociation="214F8460-5C06-1BC7-0E32-840FE2A9EA28" referredColumn="FB182360-D374-6AB2-28D9-1F8BBB4DA035"/>
 </associations>
 </Column>
-<Column name="nim" id="45E128A4-FFFD-5746-E4DD-F8C1A05C65D3">
+<Column name="hak_akses" id="45E128A4-FFFD-5746-E4DD-F8C1A05C65D3">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-10 14:02:51 UTC</createdTime>
 <generatorID>C33859E7-1543-6DCB-1A5E-E595F62FB995</generatorID>

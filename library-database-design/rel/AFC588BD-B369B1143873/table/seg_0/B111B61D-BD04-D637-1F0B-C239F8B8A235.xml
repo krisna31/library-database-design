@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B111B61D-BD04-D637-1F0B-C239F8B8A235" name="BUKU_PENULISv1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B111B61D-BD04-D637-1F0B-C239F8B8A235" name="BUKU_PENULIS">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-23 13:50:23 UTC</createdTime>
 <generatorID>FCD01C74-8A4B-6F3E-0F2B-5E7053D0FEE3</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
+<ordsAlias>buku_penulisv2</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

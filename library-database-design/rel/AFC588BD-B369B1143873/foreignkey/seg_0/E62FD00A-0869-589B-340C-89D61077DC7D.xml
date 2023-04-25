@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1FECBC9-2655-91A6-6F86-2150B3868E17" containerWithKeyObject="516D504A-A1A2-0CD5-CBEA-CD91D9BA0F1C" localFKIndex="EEDBB916-12A0-F1B7-A613-B8A1E0A18238" name="salinan_anggota_SALINAN_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E62FD00A-0869-589B-340C-89D61077DC7D" containerWithKeyObject="0AB283B0-A266-3626-6296-6E9C4F76CF38" localFKIndex="4FE284CA-902C-F323-A7A5-6132A439F1E3" name="RAK_SALINAN_FK">
 <createdBy>krisna</createdBy>
-<createdTime>2023-04-10 13:47:42 UTC</createdTime>
-<generatorID>75FFD58F-D534-5B96-2BFC-8719AF017F0F</generatorID>
+<createdTime>2023-04-25 06:35:34 UTC</createdTime>
+<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
 <ownerDesignName>library-database-design</ownerDesignName>
 <referredTableLongName>SALINAN</referredTableLongName>
 <deleteRule>CASCADE</deleteRule>
 <referredTableID>3A0EC8E9-88BD-E81D-EF29-0B312EC22364</referredTableID>
 <keyObject>EB839486-040F-3339-61B3-9236CFC54C2C</keyObject>
 <referredKeyID>EB839486-040F-3339-61B3-9236CFC54C2C</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

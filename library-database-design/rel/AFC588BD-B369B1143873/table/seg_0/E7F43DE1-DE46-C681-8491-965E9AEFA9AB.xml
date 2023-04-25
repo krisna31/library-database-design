@@ -109,6 +109,17 @@
 <colAssociation fkAssociation="5A649BB6-20E2-DD64-E854-04FE42390690" referredColumn="C871C2F5-84E7-93B8-5BC3-46F60B8D0466"/>
 </associations>
 </Column>
+<Column name="password" id="16F44312-5FDB-2F5B-6839-F3CB32EDA8D1">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-25 06:35:34 UTC</createdTime>
+<generatorID>FA6A2FA6-F789-BDCF-993C-FD5124F805D1</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="154F0975-F7EF-30A3-3E1D-A5444943E2C0" name="PETUGAS_PK">

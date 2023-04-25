@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEB6BC9E-E84E-47E0-A573-4B07738094CA" name="BUKU_PENERBITv1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEB6BC9E-E84E-47E0-A573-4B07738094CA" name="BUKU_PENERBITv2">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-23 13:50:23 UTC</createdTime>
 <generatorID>E5E00E0A-2ACA-1D59-869A-4431A9E44D2E</generatorID>

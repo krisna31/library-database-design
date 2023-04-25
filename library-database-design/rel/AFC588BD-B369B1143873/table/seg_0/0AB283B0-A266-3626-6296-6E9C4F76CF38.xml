@@ -55,6 +55,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E62FD00A-0869-589B-340C-89D61077DC7D" referredColumn="392DE151-A08F-2B00-2296-6527DFDDBA39"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -88,6 +91,17 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="26E34C35-F70D-C00E-A7A8-3E71E1C1C9B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FE284CA-902C-F323-A7A5-6132A439F1E3" name="RAK_SALINAN_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-25 06:35:34 UTC</createdTime>
+<generatorID>7D820E8F-FE3F-5353-DE48-95F1DA91AA54</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="26E34C35-F70D-C00E-A7A8-3E71E1C1C9B5"/>
 </indexColumnUsage>

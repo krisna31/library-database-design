@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB47D8ED-82F4-0779-8FDC-6D04B1AAFCE8" containerWithKeyObject="84EE18DE-F9DA-EC40-5692-B1EF2A506923" localFKIndex="83127A4E-C429-5219-734F-2BD5E9921B93" name="JADWAL_PETUGAS_PETUGAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB47D8ED-82F4-0779-8FDC-6D04B1AAFCE8" containerWithKeyObject="84EE18DE-F9DA-EC40-5692-B1EF2A506923" localFKIndex="83127A4E-C429-5219-734F-2BD5E9921B93" name="PENUGASAN_PETUGAS_FK">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
 <generatorID>23F00060-284E-A2CC-A962-4CB390E5C137</generatorID>

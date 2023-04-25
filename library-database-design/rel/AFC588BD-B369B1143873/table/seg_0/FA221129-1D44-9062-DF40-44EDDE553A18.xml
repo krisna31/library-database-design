@@ -34,18 +34,6 @@
 <colAssociation fkAssociation="4DBAFDA5-8E04-E22C-8266-FB6C80E7CB89" referredColumn="4327571D-8B79-1472-1652-BA78C773FFD0"/>
 </associations>
 </Column>
-<Column name="id2" id="85EAAF0D-5FA6-B043-3C03-6038BBBB3FBE">
-<createdBy>krisna</createdBy>
-<createdTime>2023-04-14 13:14:00 UTC</createdTime>
-<generatorID>C77F435A-C220-20F2-A994-AA6253CA401D</generatorID>
-<ownerDesignName>library-database-design</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="tanggal_pengembalian" id="2F39C769-C967-605A-5FAF-CEA5A97E552C">
 <createdBy>krisna</createdBy>
 <createdTime>2023-04-14 13:14:00 UTC</createdTime>
@@ -159,6 +147,18 @@
 <colAssociation fkAssociation="7353F057-015A-E483-E11F-6626817FD6EF" referredColumn="392DE151-A08F-2B00-2296-6527DFDDBA39"/>
 </associations>
 </Column>
+<Column name="status_pembayaran" id="02589F44-828B-D047-00F8-1E8A08BF38E1">
+<createdBy>krisna</createdBy>
+<createdTime>2023-04-25 06:50:51 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E290EBB0-5DC6-5376-A375-CE1B2B2CE7DD" name="PENGEMBALIAN_PK">
@@ -170,7 +170,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="85EAAF0D-5FA6-B043-3C03-6038BBBB3FBE"/>
 <colUsage columnID="17421A21-A666-B28A-DD74-21B3E488A0AF"/>
 <colUsage columnID="57647789-85AF-E449-9919-104927E43D1D"/>
 <colUsage columnID="965A0724-4375-ECD9-8C1B-2D39F41CE0A4"/>
