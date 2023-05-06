@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C6BA514-2783-5948-41FA-54D471938CDF" name="HAK_AKSES">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:05:51 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="95010518-1A44-FCBF-DE45-FD4310253552">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:06:17 UTC</createdTime>
+<generatorID>DAC9C22C-4151-E296-07D0-D0158C6D0A29</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>7F497B60-A9B7-7721-C7C5-63FD8141C364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="E144B2CD-F756-CF3A-2081-D99BE23CCBCF">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:06:29 UTC</createdTime>
+<generatorID>D2761252-2A6C-5FCE-DEE0-DB3CCE434958</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<referedAttribute>BA219890-FB69-EFCD-8DF9-24452D3EC60B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="read" id="92C88E7A-9147-818D-8064-D7552E7F2162">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:06:46 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="write" id="E67631C8-9390-1A6B-3380-5FD5E376915A">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:07:07 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_1" id="A27CA3D5-25B1-17AD-3E4D-353C2BBB427C">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:07:15 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modify" id="55F18F75-8D8F-B583-8736-A7B0E922BFA6">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:07:26 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delete" id="D969CE96-45D8-A35C-0151-19BE57D161E9">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:07:35 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CDDB284-F6BC-91A6-10CF-614461366D65" name="HAK_AKSES PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:07:19 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A27CA3D5-25B1-17AD-3E4D-353C2BBB427C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

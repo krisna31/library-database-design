@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02D58ABB-1F67-2029-D08F-A280EE398B7C" name="ADMIN">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>EEB48554-EC73-DCCB-4E52-BE3329170DE2</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FDF57437-40F0-0C2C-E61A-19B7CECC3BC1">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>7F497B60-A9B7-7721-C7C5-63FD8141C364</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03270A11-159F-3827-B392-E506D7B07E49" referredColumn="6EFFF929-33F0-F9C8-E376-C1CED3336D6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C5D6CA1-4463-D419-B7C3-C48BBCE313FA" name="ADMIN_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>177C01BA-B4B0-6F28-A028-9BBFD8279A64</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF57437-40F0-0C2C-E61A-19B7CECC3BC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D21B851-5E77-77F9-826A-B896F2E686E5" name="ADMIN_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>DCF1CC1A-9705-820A-E51A-FCA8A7A9B214</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF57437-40F0-0C2C-E61A-19B7CECC3BC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

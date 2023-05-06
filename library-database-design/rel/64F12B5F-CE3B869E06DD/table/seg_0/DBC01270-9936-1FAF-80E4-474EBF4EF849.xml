@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBC01270-9936-1FAF-80E4-474EBF4EF849" name="KABUPATEN">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>A5D65AE0-BEE0-38D3-E091-0B6BC3B0BFDA</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="478B106D-AF0C-1F13-4C53-AEE75FF06A21">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>98015D36-4BD7-BCEA-8774-007A665C3F61</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kabupaten" id="77533008-7280-944C-1808-9D5E94845050">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>04D71700-B753-7788-1147-8C3BE455A58E</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOTA_id" id="D1D51318-9513-CD05-9612-348C1F5CD773">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>B83EF806-FBFF-11AF-1E76-122C24E857B1</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAB37427-5743-20AB-23B4-9ECBAC0F97CD" referredColumn="63A6D28A-A3EC-BD64-E593-296DE9CC7770"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80C181EC-DCE8-1AE1-995C-F415D9F0848B" name="KABUPATEN_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>9CD02EF0-A0E5-45A9-5894-896FBA6E7E9B</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="478B106D-AF0C-1F13-4C53-AEE75FF06A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90FE7B66-D6D2-DEF4-33E5-8EFD5FE054AE" name="KABUPATEN_KOTA_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>EF80E694-DAB8-C86D-CB7D-6C25E07A56DA</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D51318-9513-CD05-9612-348C1F5CD773"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

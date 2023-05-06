@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kota_Kabupaten" directorySegmentName="seg_0" id="EF80E694-DAB8-C86D-CB7D-6C25E07A56DA">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:02:29 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>609A443A-E669-A120-4097-479008B1CE6F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>622ED556-05E1-7E24-11BF-29120B199294</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5D65AE0-BEE0-38D3-E091-0B6BC3B0BFDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

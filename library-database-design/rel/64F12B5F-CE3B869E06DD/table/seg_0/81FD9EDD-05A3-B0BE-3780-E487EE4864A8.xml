@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81FD9EDD-05A3-B0BE-3780-E487EE4864A8" name="KETUA_PERPUSTAKAAN">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>9A09A162-D02B-B3C4-A986-946ECEADF102</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9E5B675F-492C-30AD-4394-04B7CCDF15F5">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>7F497B60-A9B7-7721-C7C5-63FD8141C364</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CFBE145-11F7-3888-0C6E-4B313600AC4E" referredColumn="6EFFF929-33F0-F9C8-E376-C1CED3336D6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A56AD62B-4D08-D81D-34D2-398D453CCBE2" name="KETUA_PERPUSTAKAAN_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>177C01BA-B4B0-6F28-A028-9BBFD8279A64</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E5B675F-492C-30AD-4394-04B7CCDF15F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC91913A-A693-77A7-7A5D-0C4608110AB0" name="KETUA_PERPUSTAKAAN_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>826CDDB4-9097-556D-994B-DEDF444E1AA6</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E5B675F-492C-30AD-4394-04B7CCDF15F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

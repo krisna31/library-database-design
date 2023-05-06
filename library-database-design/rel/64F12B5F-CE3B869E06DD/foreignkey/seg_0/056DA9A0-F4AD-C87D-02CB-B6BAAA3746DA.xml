@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="056DA9A0-F4AD-C87D-02CB-B6BAAA3746DA" containerWithKeyObject="17CAFD6B-18C0-E237-159D-59F3190497D7" localFKIndex="5BD53CDB-35A1-0B22-2903-9793755A2634" name="HAK_AKSES_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>DAC9C22C-4151-E296-07D0-D0158C6D0A29</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<referredTableLongName>PETUGAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7E83CF3-4A74-3A9B-B342-E4B72D543E57</referredTableID>
+<keyObject>6CB5DBF9-01B2-F56F-A4AF-819773CC7789</keyObject>
+<referredKeyID>6CB5DBF9-01B2-F56F-A4AF-819773CC7789</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

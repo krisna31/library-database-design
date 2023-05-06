@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Anggota_Pesan" directorySegmentName="seg_0" id="CAAF05FD-655F-EA2F-034A-4D1B8F914D71">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:03:53 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>07C94907-5F09-641D-5C87-1A30DD4D079B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2136FA6F-9BFE-1B0A-2F98-6F587F25A2AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C15AA946-79D6-8F38-3A8D-02B0374F657E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

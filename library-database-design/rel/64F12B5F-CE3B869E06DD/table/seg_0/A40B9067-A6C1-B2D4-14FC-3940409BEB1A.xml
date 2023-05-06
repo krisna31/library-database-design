@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A40B9067-A6C1-B2D4-14FC-3940409BEB1A" name="BUKU_PENULIS">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>FCD01C74-8A4B-6F3E-0F2B-5E7053D0FEE3</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BUKU_id" id="2C5950A0-2835-C8F1-E3C5-06FE3237CFAB">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>41BE42A9-E7C3-6FAF-55C7-F9D2AB02AE8E</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70DF8F8A-B301-0901-B189-4A73CCCC4AC3" referredColumn="4F91BC8B-74F3-538D-4F05-A494530C52AC"/>
+</associations>
+</Column>
+<Column name="PENULIS_id" id="B85DB633-E494-EC12-518A-9969A135331E">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>65D68C1E-47AD-0FF3-C4F3-25E506358F93</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="759C7E99-CEC2-D12D-1D04-65E5AF3EFE57" referredColumn="96E57D7C-E572-9BEC-C1D7-4A44062F1B18"/>
+</associations>
+</Column>
+<Column name="dibuat_pada" id="9FCBE6E7-C302-7E12-0C05-A7BBE597C2CC">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>53752893-4E9D-BD12-999C-351C88FDF8FB</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66B2CBAC-F891-AAC2-A844-486E56A14A34" name="BUKU_PENULIS_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>417F3D27-9D76-6D93-BAE4-DF4EB2FA4914</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5950A0-2835-C8F1-E3C5-06FE3237CFAB"/>
+<colUsage columnID="B85DB633-E494-EC12-518A-9969A135331E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0DD9E32-E5C3-9496-C05A-C1E1C782EF48" name="BUKU_PENULIS_BUKU_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>CB49D518-F5A6-93EB-BA2B-383075F23304</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5950A0-2835-C8F1-E3C5-06FE3237CFAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECAA3881-06A3-3BF3-FFCF-66115ED0812C" name="BUKU_PENULIS_PENULIS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>A1A91851-4163-04F9-6125-57601B4EC9F5</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B85DB633-E494-EC12-518A-9969A135331E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

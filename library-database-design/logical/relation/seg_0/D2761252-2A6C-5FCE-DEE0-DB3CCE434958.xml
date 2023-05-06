@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PETUGAS_HAK_AKSESv1" directorySegmentName="seg_0" id="D2761252-2A6C-5FCE-DEE0-DB3CCE434958">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:06:29 UTC</createdTime>
+<ownerDesignName>library-database-design</ownerDesignName>
+<engineerTo>
+<item key="AFC588BD-CAF8-4FCF-EE5B-B369B1143873" value="true"/>
+</engineerTo>
+<sourcePk>07C94907-5F09-641D-5C87-1A30DD4D079B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2136FA6F-9BFE-1B0A-2F98-6F587F25A2AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C6BA514-2783-5948-41FA-54D471938CDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

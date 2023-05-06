@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4806C696-1B1D-67D8-E648-DB77967F328A" name="PENUGASAN">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>D3DE1F58-8700-89F0-A2CD-F3CFC031907D</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PETUGAS_id" id="02083E5D-1FF0-D694-573A-AC8689D4E0DD">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>17FB9F3A-6067-37BE-7CF7-DD475068DF04</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56CC5E3D-65E0-42DB-18CD-401F2F1C76FC" referredColumn="6EFFF929-33F0-F9C8-E376-C1CED3336D6D"/>
+</associations>
+</Column>
+<Column name="JADWAL_TUGAS_id" id="4BF959D1-5777-8F41-AB93-EE91E74C276F">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>1AAD981E-31E2-0CDB-97B3-E85C106B77B7</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A30FEC8-5DFE-E3A8-1058-C0C094C08759" referredColumn="0136BD29-F32D-BB79-ED3B-85C337F1D363"/>
+</associations>
+</Column>
+<Column name="catatan" id="9F4987D3-754F-F8EB-086C-DF313941A524">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>882F7E92-8447-7A14-CCEB-56EE0001CE07</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dibuat_pada" id="187D3950-ADBB-18DE-E58F-6961C0447EAF">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>7F80E7D0-306C-7750-659F-2F990AD4E4A9</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBEAFE06-26A3-4FF5-4649-DDA31ED46653" name="PENUGASAN_PK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>2ADBD29C-2B0C-6A85-838B-64FE195E0543</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02083E5D-1FF0-D694-573A-AC8689D4E0DD"/>
+<colUsage columnID="4BF959D1-5777-8F41-AB93-EE91E74C276F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4218CA4A-0C45-434E-D1A3-6BBF362CC6F7" name="PENUGASAN_JADWAL_TUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>AD3FA7A8-FAC2-E36C-815F-99A3CF6F6CBC</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF959D1-5777-8F41-AB93-EE91E74C276F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCD18325-D7C3-4E9A-9057-D01CC3AD098B" name="PENUGASAN_PETUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>23F00060-284E-A2CC-A962-4CB390E5C137</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02083E5D-1FF0-D694-573A-AC8689D4E0DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A30FEC8-5DFE-E3A8-1058-C0C094C08759" containerWithKeyObject="4806C696-1B1D-67D8-E648-DB77967F328A" localFKIndex="4218CA4A-0C45-434E-D1A3-6BBF362CC6F7" name="PENUGASAN_JADWAL_TUGAS_FK">
+<createdBy>krisna</createdBy>
+<createdTime>2023-05-06 08:08:30 UTC</createdTime>
+<generatorID>AD3FA7A8-FAC2-E36C-815F-99A3CF6F6CBC</generatorID>
+<ownerDesignName>library-database-design</ownerDesignName>
+<referredTableLongName>JADWAL_TUGAS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>7DE9FE81-ED31-0AD0-DC9C-D77336FC3C71</referredTableID>
+<keyObject>72D86409-037C-E7FF-14D6-35E3FEC516C4</keyObject>
+<referredKeyID>72D86409-037C-E7FF-14D6-35E3FEC516C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
